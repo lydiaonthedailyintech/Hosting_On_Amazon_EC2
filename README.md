@@ -7,13 +7,13 @@ Install, configure, and launch a WordPress blog on an Amazon Linux 2023 instance
 
 ### Architecture: 
 
-A VPC with one public subnet and one private subnet in one Availability Zone. 
+- A VPC with one public subnet and one private subnet in one Availability Zone. 
 
-A Network Load Balancer in the public subnet. 
+- A Network Load Balancer in the public subnet. 
 
-An EC2 instance acting both as a web server and a database server in the private subnet. 
+- An EC2 instance acting both as a web server and a database server in the private subnet. 
 
-A webserver security group configured to allow HTTPs traffic to the Amazon EC2 web and database server. 
+- A webserver security group configured to allow HTTPs traffic to the Amazon EC2 web and database server. 
 
 
  ![Architecture_Host a WordPress Blog](https://github.com/user-attachments/assets/5293783a-b464-41e1-baa5-0931432e281c)
